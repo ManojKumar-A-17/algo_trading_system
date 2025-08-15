@@ -34,17 +34,28 @@ It fetches stock market data, applies a basic trading strategy, backtests it, lo
 algo_trading_system/
 │
 ├── main.py # Runs the full workflow
+
 ├── config.py # Stock list, API keys, settings
+
 ├── data_fetcher.py # Download stock data
+
 ├── indicators.py # RSI, MA, MACD
+
 ├── strategy.py # Buy signal logic
+
 ├── backtest.py # Backtesting function
+
 ├── logger_google_sheets.py # Save results to Google Sheets
+
 ├── ml_model.py # ML prediction logic
+
 ├── telegram_alerts.py # Send Telegram messages
+
 ├── automation.py # Scheduler to auto-run daily
+
 ├── credentials/
 │ └── credentials.json # Google API credentials
+
 └── data/ # CSV data storage
 
 ---
