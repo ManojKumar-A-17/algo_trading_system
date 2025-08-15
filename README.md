@@ -33,6 +33,7 @@ It fetches stock market data, applies a basic trading strategy, backtests it, lo
 
 algo_trading_system/
 │
+
 ├── main.py # Runs the full workflow
 
 ├── config.py # Stock list, API keys, settings
