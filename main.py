@@ -36,7 +36,7 @@ def main():
         df = calculate_indicators(df)
         df = generate_trade_signals(df)
 
-        # Send alert if buy signals exist
+        # Send alert if buy or sell signals exist
         latest_signal = df.iloc[-1]['Signal']
         if latest_signal == 1:
             latest_date = df.iloc[-1]['Date'].strftime('%Y-%m-%d')
@@ -84,4 +84,5 @@ def main():
         send_ml_accuracy(symbol, accuracy)
 
 if __name__ == "__main__":
+
     main()
