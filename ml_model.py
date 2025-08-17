@@ -1,3 +1,4 @@
+# Decision Tree Classifier.
 # ml_model.py
 
 import pandas as pd
@@ -37,3 +38,4 @@ def train_and_evaluate(df):
     accuracy = accuracy_score(y_test, predictions)
     
     return model, accuracy
+
