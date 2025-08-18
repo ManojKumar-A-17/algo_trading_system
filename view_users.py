@@ -1,4 +1,5 @@
 # view_users.py
+#this is for the admin purpose only to see their user list.
 import json
 
 def show_collected_users():
@@ -28,4 +29,5 @@ def show_collected_users():
         print(f" Error: {e}")
 
 if __name__ == "__main__":
+
     show_collected_users()
