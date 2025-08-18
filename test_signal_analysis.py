@@ -4,7 +4,7 @@ from indicators import calculate_indicators
 from strategy import generate_trade_signals
 
 def analyze_signals():
-    symbols = ['RELIANCE.NS', 'TCS.NS', 'INFY.NS']
+    symbols = ['RELIANCE.NS', 'TCS.NS', 'INFY.NS'] # add your stock , as you mention in config.py.
     
     for symbol in symbols:
         print(f"\n {symbol} Signal Analysis:")
@@ -35,4 +35,5 @@ def analyze_signals():
             print(signal_data)
 
 if __name__ == "__main__":
+
     analyze_signals()
